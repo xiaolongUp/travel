@@ -9,7 +9,9 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  // es6的语法当中，键值相等时可以省略值，下处的语法等同 router:router
   router,
+  // es6的语法当中，键值相等时可以省略值，下处的语法等同 App:App
   components: { App },
   template: '<App/>'
 })
